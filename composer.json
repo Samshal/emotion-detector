@@ -1,0 +1,22 @@
+{
+    "name": "samuel/emotion-detector",
+    "description": "Detects emotion based on lexicon sentiment analysis",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Samshal",
+            "email": "samueladeshina73@gmail.com"
+        }
+    ],
+    "config":{
+        "platform":{
+            "php": "7"
+        }
+    },
+    "autoload":{
+        "psr-4":{
+            "SentimentAnalysis\\":"./src"
+        }
+    }
+}
